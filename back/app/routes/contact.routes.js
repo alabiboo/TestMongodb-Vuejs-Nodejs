@@ -7,9 +7,9 @@ module.exports = app => {
     
     router.get("/", contacts.findAll);
     
-    router.get("/:id", contacts.findOne);
+    //router.get("/:id", contacts.findOne);
     
-    router.put("/:id", contacts.update);
+    //router.put("/:id", contacts.update);
     
     router.delete("/:id", contacts.delete);
 
